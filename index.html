@@ -6,6 +6,7 @@
         <title>
             Sparks Blog
         </title>
+        <base href="/sparks_blog_content">
         <link href="styles/bootstrap.min.css" rel="stylesheet">
         <link href="styles/normalize.css" rel="stylesheet">
         <link href="styles/site.min.css" rel="stylesheet">
@@ -36,7 +37,7 @@
                 <article class="body-content">
                     <script type="module">
                         
-                                import init from "wgpu-scenery/pkg/wgpu_scenery.js";
+                                import init from "/wgpu-scenery/pkg/wgpu_scenery.js";
                                 init().then(() => {
                                     console.log("WASM Loaded");
                                 });
@@ -46,7 +47,7 @@
                     <section class="container-fluid">
                         <div class="row" style="padding-top:0px;padding-bottom:0px;">
                             <section class="col-md-12" style="padding-left:0px;padding-right:0px;">
-                                <div id="wasm-example" style="height:900px;background: url('/images/nature_scene_demo.jpg') no-repeat center center scroll;
+                                <div id="wasm-example" style="height:900px;background: url('images/nature_scene_demo.jpg') no-repeat center center scroll;
                                     background-size: cover;">
                                 </div>
                             </section>
