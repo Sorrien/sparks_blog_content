@@ -1,0 +1,15 @@
+{
+  "name": "wgpu_scenery",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "wgpu_scenery_bg.wasm",
+    "wgpu_scenery.js",
+    "wgpu_scenery.d.ts"
+  ],
+  "main": "wgpu_scenery.js",
+  "types": "wgpu_scenery.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "hello_wasm_site",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "hello_wasm_site_bg.wasm",
+    "hello_wasm_site.js",
+    "hello_wasm_site.d.ts"
+  ],
+  "main": "hello_wasm_site.js",
+  "types": "hello_wasm_site.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
